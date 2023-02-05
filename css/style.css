@@ -9,36 +9,6 @@
   display: block;
   clear: both;
 }
-nav {
-  background-color: transparent;
-  height: 40px;
-  width: 100vw;
-}
-nav ul {
-  display: block;
-  list-style: none;
-}
-nav ul li {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 5 auto;
-}
-nav ul li a {
-  display: block;
-  float: left;
-  color: white;
-  width: 170px;
-  margin: 10px 20px;
-  padding: 5px;
-  text-decoration: none;
-  text-transform: uppercase;
-  border: 0px solid white;
-  border-radius: 0px;
-}
-nav ul li a:hover {
-  border: 1px solid white;
-  border-radius: 20px;
-}
 header {
   height: 60vh;
   min-height: 300px;
@@ -46,4 +16,70 @@ header {
   background-image: url(/images/Bieszczady1.jpg);
   background-position: center;
   background-repeat: no-repeat;
+}
+header div {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+nav {
+  background-color: transparent;
+  max-width: 1200px;
+  height: 40px;
+  width: 100vw;
+  margin: 0px auto;
+}
+nav ul {
+  display: block;
+  list-style: none;
+}
+nav ul li {
+  max-width: 1200px;
+  margin: 5px auto;
+  padding: 5px auto;
+  text-align: center;
+}
+nav ul li a {
+  box-sizing: content-box;
+  display: block;
+  float: left;
+  color: white;
+  width: 150px;
+  margin: 10px 23px;
+  padding: 5px 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-bottom: 1px solid white;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+nav ul li a:hover {
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+header h1 {
+  margin: 40vh 40vh auto auto;
+  text-align: right;
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+header h2 {
+  margin: 0vh 40vh auto auto;
+  text-align: right;
+  color: white;
+  font-size: 1rem;
+  text-transform: lowercase;
+  letter-spacing: 9px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 5px auto;
+  padding: 5px 20px;
+  border-left: 5px dotted #53703538;
+  border-right: 5px dotted #53703538;
 }
