@@ -1,4 +1,49 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Mulish", sans-serif;
+  box-sizing: border-box;
+}
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+nav {
+  background-color: transparent;
+  height: 40px;
+  width: 100vw;
+}
+nav ul {
+  display: block;
+  list-style: none;
+}
+nav ul li {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5 auto;
+}
+nav ul li a {
+  display: block;
+  float: left;
+  color: white;
+  width: 170px;
+  margin: 10px 20px;
+  padding: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 0px solid white;
+  border-radius: 0px;
+}
+nav ul li a:hover {
+  border: 1px solid white;
+  border-radius: 20px;
+}
+header {
+  height: 60vh;
+  min-height: 300px;
+  width: 100vw;
+  background-image: url(/images/Bieszczady1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
