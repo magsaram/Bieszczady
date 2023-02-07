@@ -129,6 +129,7 @@ header h2 {
 .second-text {
   width: 50vw;
   margin: 0 auto;
+  text-align: center;
 }
 .title {
   text-align: center;
