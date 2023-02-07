@@ -11,13 +11,18 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/4724b0e1a2.css"
+      crossorigin="anonymous"
+    />
     <title>Ruszaj w Bieszczady</title>
   </head>
   <body>
-    <header>
+    <header class="header-main">
       <div>
         <nav>
-          <ul class="clearfix">
+          <ul>
             <li><a href="index.html">strona główna</a></li>
             <li><a href="szczyty.html">szczyty</a></li>
             <li><a href="poloniny.html">połoniny</a></li>
@@ -31,30 +36,41 @@
     </header>
     <div class="wrapper">
       <section>
-        <div>
-          <h2 class="title">Ruszaj na szlaki!</h2>
-          <img src="" alt="" />
-          <p>
-            Tarnica czy Bukowe Berdo? Te i kilkadziesiąt innych szczytów
-            czekają, aż je zdobędziesz!
-          </p>
-          <button class="button">szczyty</button>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <p>
-            Odetchnij bieszczadzkim powietrzem wychodząc z lasu na nagie pasma
-            połonin!
-          </p>
-          <button class="button">połoniny</button>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <p>
-            W Bieszczady nie da się przyjechać na jeden dzień. Skorzystaj z
-            naszych sprawdzonych miejscówek!
-          </p>
-          <button class="button">noclegi</button>
+        <h2 class="title">Ruszaj na szlaki!</h2>
+        <div class="section clearfix">
+          <div class="insection">
+            <div class="image">
+              <img src="/images/tarnica.jpg" alt="Tarnica" />
+            </div>
+            <p>
+              Tarnica czy Bukowe Berdo? Te i kilkadziesiąt innych szczytów
+              czekają, aż je zdobędziesz!
+            </p>
+            <button>
+              <a class="linkbutton" href="szczyty.html">szczyty</a>
+            </button>
+          </div>
+
+          <div class="insection">
+            <img src="/images/wetlinska.jpg" alt="wetlińska" />
+            <p>
+              Odetchnij bieszczadzkim powietrzem wychodząc z lasu na nagie pasma
+              połonin!
+            </p>
+            <button>
+              <a class="linkbutton" href="poloniny.html">połoniny</a>
+            </button>
+          </div>
+          <div class="insection">
+            <img src="/images/nocleg2.jpg" alt="nocleg" />
+            <p>
+              W Bieszczady nie da się przyjechać na jeden dzień. Skorzystaj z
+              naszych sprawdzonych miejscówek!
+            </p>
+            <button>
+              <a class="linkbutton" href="noclegi.html">noclegi</a>
+            </button>
+          </div>
         </div>
       </section>
       <div class="second-image"></div>

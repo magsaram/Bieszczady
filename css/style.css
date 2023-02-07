@@ -4,13 +4,21 @@
   font-family: "Mulish", sans-serif;
   box-sizing: border-box;
 }
-.clearfix {
+.clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
-header {
+.header-main {
   height: 90vh;
+  min-height: 300px;
+  width: 100%;
+  background-image: url(/images/Bieszczady1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header-podstrona {
+  height: 40vh;
   min-height: 300px;
   width: 100%;
   background-image: url(/images/Bieszczady1.jpg);
@@ -44,6 +52,23 @@ nav ul li a {
   display: block;
   float: left;
   color: #294569;
+  width: 150px;
+  margin: 10px 23px;
+  padding: 5px 20px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-bottom: 1px solid white;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+.a-podstrona {
+  box-sizing: content-box;
+  display: block;
+  float: left;
+  color: white;
   width: 150px;
   margin: 10px 23px;
   padding: 5px 20px;
@@ -91,7 +116,7 @@ header h2 {
   background-image: url(/images/Bieszczady2.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  margin: 10px auto;
+  margin: 0px auto;
 }
 .third-image {
   height: 400px;
@@ -99,7 +124,7 @@ header h2 {
   background-image: url(/images/Bieszczady3.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  margin: 10px auto 0 auto;
+  margin: 20px auto 0 auto;
 }
 .second-text {
   width: 50vw;
@@ -108,18 +133,59 @@ header h2 {
 .title {
   text-align: center;
   font-size: 2rem;
+  margin-top: 10px;
 }
+img {
+  display: block;
+  width: 100%;
+  border: 3px solid #48653479;
+  border-radius: 20px;
+}
+
+.section {
+  margin: 10px auto 0 auto;
+}
+.section-podstrona1 {
+  margin: 0px auto 0px auto;
+  border-bottom: 5px dotted #53703538;
+}
+.section-podstrona2 {
+  margin: 0px auto 0px auto;
+}
+.insection {
+  width: 30%;
+  float: left;
+  margin: 1.6%;
+}
+.insection-podstrona {
+  width: 46%;
+  float: left;
+  margin: 2%;
+}
+h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: #486534;
+  margin-bottom: 20px;
+}
+p {
+  display: inline-block;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 10px;
+}
+
 .writetous {
   max-width: 50vw;
   text-align: center;
   font-size: 1.2rem;
-  margin: 5px auto;
+  margin: 5px auto 0 auto;
 }
 button {
   display: block;
   background-color: transparent;
   border: transparent;
-  margin: 20px auto;
+  margin: 5px auto 20px auto;
 }
 .linkbutton {
   display: inline-block;
@@ -140,5 +206,9 @@ footer {
   width: 500px;
   margin: 0px auto;
   padding-bottom: 10px;
+  text-align: center;
+}
+.contact {
+  margin-top: 20px;
   text-align: center;
 }
