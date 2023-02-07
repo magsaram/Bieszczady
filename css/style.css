@@ -13,7 +13,7 @@
   height: 90vh;
   min-height: 300px;
   width: 100%;
-  background-image: url(/images/Bieszczady1.jpg);
+  background-image: url(../images/Bieszczady1.jpg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -21,7 +21,7 @@
   height: 40vh;
   min-height: 300px;
   width: 100%;
-  background-image: url(/images/Bieszczady1.jpg);
+  background-image: url(../images/Bieszczady1.jpg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -113,7 +113,7 @@ header h2 {
   height: 400px;
 
   width: 100%;
-  background-image: url(/images/Bieszczady2.jpg);
+  background-image: url(../images/Bieszczady2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   margin: 0px auto;
@@ -121,7 +121,7 @@ header h2 {
 .third-image {
   height: 400px;
   width: 100%;
-  background-image: url(/images/Bieszczady3.jpg);
+  background-image: url(../images/Bieszczady3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   margin: 20px auto 0 auto;
